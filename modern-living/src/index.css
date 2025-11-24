@@ -1,0 +1,16 @@
+.bg-image{
+    background-image: url('https://themewagon.github.io/iStudio/img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.bottom-border{
+    border-bottom: 3px solid white;
+}
+.hov{
+    font-size: 18px;
+}
+.hov:hover{
+   color: #0d6b68;
+}

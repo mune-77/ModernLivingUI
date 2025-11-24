@@ -1,19 +1,12 @@
 import { Link } from 'react-router-dom';
 function Navbar() {
   return (
-   
-      <div className="box-nav">
-        <nav className="navbar navbar-expand-lg fixed-top bg-dark text-white">
-          <div className="container">
-            <Link className="navbar-brand fs-2 fw-bold text-white" to="/">
-              <span>
-                <img
-                  src="https://img.icons8.com/?size=100&id=86985&format=png&color=228BE6"
-                  className="logo"
-                  alt=""
-                />
-              </span>{" "}
-              codeByMUNE
+    <div className="bg-image">
+        <nav className="navbar navbar-expand-lg fixed-top ">
+          <div className="container bottom-border">
+            <Link className="navbar-brand fs-2 fw-bold" to="/">
+              
+              ISTUDIO
             </Link>
             <button
               className="navbar-toggler"
@@ -24,24 +17,34 @@ function Navbar() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto">
+              <ul className="navbar-nav ms-auto d-flex gap-3">
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/">
+                  <Link className="nav-link active hov" to="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/about">
-                    About My
+                  <Link className="nav-link hov" to="/about">
+                    About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/about">
-                    Project
+                  <Link className="nav-link hov" to="/services">
+                    Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link text-white" to="/about">
+                  <Link className="nav-link hov" to="/projects">
+                    Projects
+                  </Link>
+                </li>
+                 <li className="nav-item">
+                  <Link className="nav-link hov" to="/pages">
+                    Pages
+                  </Link>
+                </li>
+                 <li className="nav-item">
+                  <Link className="nav-link hov" to="/contact">
                     Contact
                   </Link>
                 </li>
@@ -50,7 +53,7 @@ function Navbar() {
           </div>
         </nav>
       </div>
-   
+
   );
 }
 export default Navbar;
