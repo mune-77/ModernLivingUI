@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './Navbar'
-import './App.css'
 import Home from './Home'
+import './App.css'
+
 
 function App() {
- 
-
   return (
     <>
     <Router>
@@ -14,8 +13,6 @@ function App() {
   <Route path='/' element={<Home />} />
  </Routes>
     </Router>
-   
-      
     </>
   )
 }

@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
 function Navbar() {
   return (
-    <div className="bg-image">
+    <div className="">
         <nav className="navbar navbar-expand-lg fixed-top ">
           <div className="container bottom-border">
-            <Link className="navbar-brand fs-2 fw-bold" to="/">
-              
+            <Link className="navbar-brand fs-2 fw-bold" to="/">              
               ISTUDIO
             </Link>
             <button
@@ -53,7 +52,7 @@ function Navbar() {
           </div>
         </nav>
       </div>
-
   );
 }
+
 export default Navbar;
