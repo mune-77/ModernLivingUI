@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPenRuler, faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons'
 import Navbar from './Navbar'
 import Home from './Home'
 import './App.css'

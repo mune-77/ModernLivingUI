@@ -1,16 +1,269 @@
-.bg-image{
-    background-image: url('https://themewagon.github.io/iStudio/img/hero-bg.jpg');
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+.bg-image {
+  background-image: url("https://themewagon.github.io/iStudio/img/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
-.bottom-border{
-    border-bottom: 3px solid white;
+.bottom-border {
+  border-bottom: 3px solid white;
+}
+.hov {
+  font-size: 18px;
+}
+.hov:hover {
+  color: #285155;
+}
+.title {
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+.titleS {
+  color: #285155;
+}
+.texter {
+  font-size: 20px;
+  color: #d1af6f;
+  border: solid 2px white;
+}
+.cart {
+  width: 50%;
+  height: 450px;
+  background-color: #285155;
+}
+.card-bg {
+  background-color: #285155;
+}
+.light-bg {
+  background-color: #eae7dc;
+}
+.text {
+  color: #d1af6f;
+}
+.btn-bg {
+  background-color: #285155;
+}
+.icon {
+  color: #285155;
+  border: 2px solid #285155;
+  width: 50px;
+}
+.icon:hover {
+  color: white;
+  background-color: #285155;
+  cursor: pointer;
+}
+.icon-fs {
+  font-size: 60px;
+}
+.bg-col {
+  background-color: #285155;
+}
+.bg-img {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/588e73ebd1758e87f06797ab/1527464856649-84LDA7M84KIFFMJWATL7/Beach+Pretty+House+Tours-A+House+as+Pretty+as+A+Rose+1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.3s ease;
+}
+.bg-img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.bg-leanr {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  height: 100%;
+  z-index: 1;
+}
+.text-text {
+  z-index: 2;
+}
+.bg-img1 {
+  background-image: url("https://decombo.com/wp-content/uploads/2020/07/modern-ev-dekorasyon-ornekleri-1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.3s ease;
+}
+.bg-img1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.bg-img2 {
+  background-image: url("https://media.architecturaldigest.com/photos/654bbb3c9ed5f5ade0d4b584/master/w_1024%2Cc_limit/1_Jeff%2520Andrews%2520Design_PhotoCredit_Stephen%2520Busken.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.3s ease;
+}
+.bg-img2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.bg-img3 {
+  background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_940,h_625/https://www.essentialhome.eu/inspirations/wp-content/uploads/2024/08/The-Worlds-Most-Spectacular-Modern-Homes_18.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.3s ease;
+}
+.bg-img3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.bg-img4 {
+  background-image: url("https://dlifeinteriors.com/wp-content/uploads/2025/02/Contemporary-bedroom-design-with-black-theme-1024x618.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.3s ease;
+}
+.bg-img4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.bg-img5 {
+  background-image: url("https://decombo.com/wp-content/uploads/2020/07/modern-ev-dekorasyon-ornekleri-6.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.3s ease;
+}
+.bg-img5:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.icons {
+  background-color: #285155;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-bg {
+  background-color: #eae7dc;
+  height: 80px;
+}
+.img-bg {
+  background-image: url("https://media.architecturaldigest.com/photos/6553d8773947b7f6f77b02c5/16:9/w_8688,h_4887,c_limit/Living%20room_%20Devon%20Grace%20Interiors_credit_%20Dustin%20Halleck_1.jpg");
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+.img-bg1 {
+  background-image: url("https://i.ytimg.com/vi/xYYsZwuX2C8/maxresdefault.jpg");
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+.img-bg2 {
+  background-image: url("https://decombo.com/wp-content/uploads/2020/07/modern-ev-dekorasyon-ornekleri-27.jpg");
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+.img-bg3 {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/edc100123egan-002-6500742f5feb7.jpg?crop=0.688xw:1.00xh;0.157xw,0&resize=1120:*");
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+.light-bg1 {
+  background-color: #285155;
+  color: white;
+}
+.card.light-bg1:hover {
+  background-color: #eae7dc;
+  cursor: pointer;
+  color: black;
+}
+.card:hover .light-bg1 {
+  background-color: #eae7dc;
+  cursor: pointer;
+  color: black;
+}
+.light-bg2 {
+  background-color: #eae7dc;
+  color: black;
+}
+.card.light-bg2:hover {
+  background-color: #285155;
+  cursor: pointer;
+  color: white;
+}
+.card:hover .light-bg2 {
+  background-color: #285155;
+  cursor: pointer;
+  color: white;
+}
+.title-fs {
+  font-size: 40px;
+}
+.bg-leanr1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.zoom1{
+    transition: transform 1s ease;
+}
+.zoom:hover .zoom1{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.tit-bg{
+background-color: #285155;
+display: flex;
+justify-content: center;
+}
+.icon-bg{
+    color: #285155;
+    border: #285155 solid 2px;
+    width: 30px;
+    height: 30px;
+}
+.cart1 {
+  width: 40%;
+  height: 330px;
+  background-color: #285155;
+}
+.col-bg{
+  background-image: url('https://themewagon.github.io/iStudio/img/hero-bg.jpg');
+}
+.dark-bg{
+  background-color: #0f2e31;
+}
+.color{
+  color: #a7a8a8;
+}
+.icon-bg1{
+    color: #05b5c5;
+    border: #05b5c5 solid 2px;
+    width: 30px;
+    height: 30px;
+}
+.icon-bg1:hover{
+  cursor: pointer;
 }
 .hov{
-    font-size: 18px;
+  transition: transform 1s ease;
 }
 .hov:hover{
-   color: #0d6b68;
+  transform: scaleX(1.1);
+  cursor: pointer;
 }
